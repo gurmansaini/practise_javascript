@@ -1,4 +1,4 @@
-//Ways to print javascript
-console.log("Hello World");
-alert("me");
-document.write("this is gurman");
+//1.Ways to print javascript
+//console.log("Hello World");
+//alert("me");
+//document.write("this is gurman");
