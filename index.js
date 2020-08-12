@@ -54,3 +54,10 @@ console.log(und);
 //Null
 var n = null;
 console.log(n);
+
+//Arrays
+var arr = [1, 2, 3, 4, 5];
+var arr1 = [1, 2, "lilly", 4, 5];
+
+console.log(arr);
+console.log(arr1);
