@@ -103,5 +103,25 @@ var y = 56;
 // console.log(false || false);
 
 //Logical Not
-console.log(!false);
-console.log(!true);
+// console.log(!false);
+// console.log(!true);
+
+//Function
+//DRY=Do not repeat yourself
+
+//Example1
+function avg(a, b) {
+  return (a + b) / 2;
+}
+c1 = avg(4, 6);
+c2 = avg(20, 7);
+console.log(c1, c2);
+
+//Example2
+function avg(a, b) {
+  c = (a + b) / 2;
+  return c;
+}
+c1 = avg(10, 6);
+c2 = avg(20, 17);
+console.log(c1, c2);
