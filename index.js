@@ -22,7 +22,7 @@ What are Variables?- Containers to store data values
 
 var number1 = 20;
 var number2 = 50;
-console.log(number1 + number2);
+// console.log(number1 + number2);
 
 //Data types in JS
 //Numbers
@@ -40,24 +40,68 @@ var marks = {
   Lilly: 98,
   Harman: 67.998,
 };
-console.log(marks);
+// console.log(marks);
 
 //Booleans
 var a = true;
 var b = false;
-console.log(a, b);
+// console.log(a, b);
 
 //var und = undefined;
 var und;
-console.log(und);
+// console.log(und);
 
 //Null
 var n = null;
-console.log(n);
+// console.log(n);
 
 //Arrays
 var arr = [1, 2, 3, 4, 5];
 var arr1 = [1, 2, "lilly", 4, 5];
 
-console.log(arr);
-console.log(arr1);
+// console.log(arr);
+// console.log(arr1);
+
+//Operators in Js
+//Arithmetic operators
+var a = 20;
+var b = 4;
+// console.log("the value of a+b is", a + b);
+// console.log("the value of a-b is", a - b);
+// console.log("the value of a*b is", a * b);
+// console.log("the value of a/b is", a / b);
+
+//Assignment Operators
+var c = b;
+// c += 2;
+// c -= 2;
+// c *= 2;
+// c /= 2;
+// console.log(c);
+
+//Comparison Operator
+var x = 34;
+var y = 56;
+// console.log(x == y);
+// console.log(x >= y);
+// console.log(x <= y);
+// console.log(x < y);
+// console.log(x > y);
+
+//Logical Operators
+//Logical And
+
+// console.log(true && true);
+// console.log(false && true);
+// console.log(true && false);
+// console.log(false && false);
+
+// //Logical Or
+// console.log(true || true);
+// console.log(false || true);
+// console.log(true || false);
+// console.log(false || false);
+
+//Logical Not
+console.log(!false);
+console.log(!true);
