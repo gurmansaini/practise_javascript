@@ -108,7 +108,7 @@ var y = 56;
 
 //Function
 //DRY=Do not repeat yourself
-
+/*
 //Example1
 function avg(a, b) {
   return (a + b) / 2;
@@ -116,6 +116,7 @@ function avg(a, b) {
 c1 = avg(4, 6);
 c2 = avg(20, 7);
 console.log(c1, c2);
+
 
 //Example2
 function avg(a, b) {
@@ -125,3 +126,6 @@ function avg(a, b) {
 c1 = avg(10, 6);
 c2 = avg(20, 17);
 console.log(c1, c2);
+*/
+
+//Conditionals in JS
